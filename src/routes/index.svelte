@@ -1,5 +1,5 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+	import successkid from 'images/pearrot.jpg';
 </script>
 
 <style>
@@ -9,14 +9,17 @@
 	}
 
 	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
+		font-size: 1.0em;
+		text-transform: none;
 		font-weight: 700;
 		margin: 0 0 0.5em 0;
 	}
 
 	figure {
 		margin: 0 0 1em 0;
+		font-size: 1.5em;
+		font-style: italic;
+
 	}
 
 	img {
@@ -37,14 +40,14 @@
 </style>
 
 <svelte:head>
-	<title>Patrouch</title>
+	<title>Domains</title>
 </svelte:head>
 
-<h1>Chef Tech</h1>
+<h1>"Pearrot"</h1>
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Christophe R Patraldo</figcaption>
+	<figcaption>Portrait d'un perroquet</figcaption>
 </figure>
 
-<p><strong>aka mxurbano, urbanx, xpat, christopher patrouch, etc.</strong></p>
+<p><strong>by Pam Sheehan</strong></p>
